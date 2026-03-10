@@ -1,0 +1,23 @@
+[Desktop Entry]
+Type=Application
+Name=BasiliskII
+Comment=Open source classic 68k Mac OS emulator
+Icon=BasiliskII
+Exec=BasiliskII
+Terminal=false
+StartupWMClass=Basilisk II
+StartupNotify=false
+Categories=Emulator;System;
+Actions=launch-skip-settings;launch-force-settings;launch-opengl;
+
+[Desktop Action launch-skip-settings]
+Name=Start BasiliskII (skip settings)
+Exec=BasiliskII --nogui true
+
+[Desktop Action launch-force-settings]
+Name=Start BasiliskII (force settings)
+Exec=BasiliskII --nogui false
+
+[Desktop Action launch-opengl]
+Name=Start BasiliskII (opengl)
+Exec=BasiliskII --sdlrender opengl
