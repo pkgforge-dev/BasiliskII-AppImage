@@ -34,7 +34,5 @@ NO_CONFIGURE=1 ./autogen.sh
     --with-bincue \
     --with-vdeplug
 
-sed -i 's| -Werror=format-security||' Makefile # Fix the build by disabling format-security
-#sed -i 's/#include <SDL_audio.h>//g' ../src/bincue.cpp
 make -j$(nproc)
-
+mv -v ./BasiliskII ../../../../AppDir/bin
