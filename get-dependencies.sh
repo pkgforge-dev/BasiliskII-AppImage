@@ -31,7 +31,6 @@ NO_CONFIGURE=1 ./autogen.sh
     --enable-sdl-audio \
     --enable-jit-compiler \
     --with-bincue \
-    --with-libvhd \
     --with-vdeplug
 
 make -j$(nproc)
