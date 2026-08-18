@@ -26,7 +26,6 @@ mkdir -p ./AppDir/bin
 cd ./macemu/BasiliskII/src/Unix
 NO_CONFIGURE=1 ./autogen.sh
 ./configure \
-    --prefix=/usr \
     --with-sdl3 \
     --enable-sdl-video \
     --enable-sdl-audio \
