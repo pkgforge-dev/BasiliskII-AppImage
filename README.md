@@ -11,7 +11,7 @@
 </p>
 
 
-| Latest Nightly Release | Upstream URL |
+| Latest Stable Release | Upstream URL |
 | :---: | :---: |
 | [Click here](https://github.com/pkgforge-dev/BasiliskII-AppImage/releases/latest) | [Click here](https://github.com/kanjitalk755/macemu) |
 
